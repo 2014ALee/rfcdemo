@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.media.Media?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.media.MediaPlayer?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox alignment="CENTER" spacing="20.0"
+   xmlns="http://javafx.com/javafx/8.0.171"
+   xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ripefruitcreative.WhatIAmFinalController">
+   <!-- <HBox>
+      <children>
+         <ImageView fx:id="imageView1" fitHeight="200.0" fitWidth="200.0" layoutX="1463.0" layoutY="551.0">
+            <image/>
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1463.0" layoutY="551.0">
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1463.0" layoutY="551.0">
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1463.0" layoutY="551.0">
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1463.0" layoutY="551.0">
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1463.0" layoutY="551.0">
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1463.0" layoutY="551.0">
+         </ImageView>
+      </children>
+   </HBox> -->
+   <children>
+      <Label text="You are a..." />
+      <Label fx:id= "finalLabel" text="${controller.whatYouAre}" />
+      <Button fx:id="primaryButton" text="Back to video selection" onAction="#switchToSecondary"/>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
